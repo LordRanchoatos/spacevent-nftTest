@@ -18,17 +18,21 @@ module.exports = {
       chainId: 1337
     },
     mumbai: {
-      url: `https://polygon-mumbai.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d`,
-      //accounts: [process.env.privateKey]
+      url: `https://polygon-mainnet.g.alchemy.com/v2/CBAlKSd_HNgnmnUkzctmtOEMNjeycer5`,
+      accounts: ["927bed8d56cfc464580d05fd8347a19128dde9af0f590793894c916c380d68f7"]
     },
     matic: {
-      url: "https://polygon-mainnet.g.alchemy.com/v2/nAhiCHKvZkhkp4A7PkkCIBON0-BXW26d",
-      //accounts: [process.env.privateKey]
+      url: "https://polygon-mainnet.g.alchemy.com/v2/CBAlKSd_HNgnmnUkzctmtOEMNjeycer5",
+      accounts: ["927bed8d56cfc464580d05fd8347a19128dde9af0f590793894c916c380d68f7"]
     },
     goerli: {
-      url: process.env.REACT_APP_ALCHEMY_API_URL,
-      accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
+      url: 'https://eth-goerli.g.alchemy.com/v2/OCykNi_hX6WolqgtZEIcKyrwfGK-dN2j',
+      accounts: ["927bed8d56cfc464580d05fd8347a19128dde9af0f590793894c916c380d68f7"]
     }
+    // goerli: {
+    //   url: process.env.REACT_APP_ALCHEMY_API_URL,
+    //   accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
+    // }
   },
   solidity: {
     version: "0.8.4",
